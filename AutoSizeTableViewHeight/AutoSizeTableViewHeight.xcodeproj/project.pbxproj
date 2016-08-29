@@ -14,6 +14,8 @@
 		E092CF341D73DDB300D5B6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E092CF321D73DDB300D5B6B0 /* LaunchScreen.storyboard */; };
 		E092CF3F1D73DDB300D5B6B0 /* AutoSizeTableViewHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092CF3E1D73DDB300D5B6B0 /* AutoSizeTableViewHeightTests.swift */; };
 		E092CF4A1D73DDB300D5B6B0 /* AutoSizeTableViewHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092CF491D73DDB300D5B6B0 /* AutoSizeTableViewHeightUITests.swift */; };
+		E092CF581D73DDEC00D5B6B0 /* RNStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092CF571D73DDEC00D5B6B0 /* RNStringViewController.swift */; };
+		E092CF5A1D73E10600D5B6B0 /* RNStringTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E092CF591D73E10600D5B6B0 /* RNStringTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E092CF451D73DDB300D5B6B0 /* AutoSizeTableViewHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoSizeTableViewHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E092CF491D73DDB300D5B6B0 /* AutoSizeTableViewHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizeTableViewHeightUITests.swift; sourceTree = "<group>"; };
 		E092CF4B1D73DDB300D5B6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E092CF571D73DDEC00D5B6B0 /* RNStringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNStringViewController.swift; sourceTree = "<group>"; };
+		E092CF591D73E10600D5B6B0 /* RNStringTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNStringTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				E092CF291D73DDB300D5B6B0 /* AppDelegate.swift */,
 				E092CF2B1D73DDB300D5B6B0 /* ViewController.swift */,
+				E092CF571D73DDEC00D5B6B0 /* RNStringViewController.swift */,
+				E092CF591D73E10600D5B6B0 /* RNStringTableViewCell.swift */,
 				E092CF2D1D73DDB300D5B6B0 /* Main.storyboard */,
 				E092CF301D73DDB300D5B6B0 /* Assets.xcassets */,
 				E092CF321D73DDB300D5B6B0 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E092CF5A1D73E10600D5B6B0 /* RNStringTableViewCell.swift in Sources */,
 				E092CF2C1D73DDB300D5B6B0 /* ViewController.swift in Sources */,
 				E092CF2A1D73DDB300D5B6B0 /* AppDelegate.swift in Sources */,
+				E092CF581D73DDEC00D5B6B0 /* RNStringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

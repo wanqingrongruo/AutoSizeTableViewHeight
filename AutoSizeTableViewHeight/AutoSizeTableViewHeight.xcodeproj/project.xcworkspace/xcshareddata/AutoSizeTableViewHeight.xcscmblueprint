@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2AE3FA18A5344F7CC306D4DF94BFF2D28E60C503",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B69EA00F5F131820FF9BA77560B5184570563F17" : 0,
+    "2AE3FA18A5344F7CC306D4DF94BFF2D28E60C503" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ECABDA07-2EDF-4189-A964-D71894EF2AFB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B69EA00F5F131820FF9BA77560B5184570563F17" : "..",
+    "2AE3FA18A5344F7CC306D4DF94BFF2D28E60C503" : "AutoSizeTableViewHeight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AutoSizeTableViewHeight",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AutoSizeTableViewHeight\/AutoSizeTableViewHeight.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wanqingrongruo\/AutoSizeTableViewHeight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2AE3FA18A5344F7CC306D4DF94BFF2D28E60C503"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ozner-app-ios-org\/HoyoServicer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B69EA00F5F131820FF9BA77560B5184570563F17"
+    }
+  ]
+}
