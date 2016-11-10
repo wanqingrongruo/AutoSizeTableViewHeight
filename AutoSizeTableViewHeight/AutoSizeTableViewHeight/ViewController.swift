@@ -33,22 +33,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
     }
     
-    override func viewDidDisappear(animated: Bool) {
+    override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         
     }
@@ -73,11 +73,11 @@ extension  ViewController{
     func setUpTableView() {
         
         
-        tableView = UITableView(frame: CGRectMake(0, 0, UIScreen.mainScreen().bounds.width,UIScreen.mainScreen().bounds.height), style: UITableViewStyle.Plain)
-        tableView.backgroundColor = UIColor.whiteColor()
+        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width,height: UIScreen.main.bounds.height), style: UITableViewStyle.plain)
+        tableView.backgroundColor = UIColor.white
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cellIdentifier")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cellIdentifier")
         
         view.addSubview(tableView)
     }
@@ -97,20 +97,20 @@ extension  ViewController{
 
 extension ViewController:UITableViewDelegate,UITableViewDataSource{
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataSource.count
     }
     
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 44
     }
     
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("cellIdentifier")
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier")
         
         if  cell == nil {
-            cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cellIdentifier")
+            cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cellIdentifier")
         }
         
         cell?.textLabel?.text = dataSource[indexPath.row]
@@ -118,7 +118,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         return cell!
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
             let stringVC = RNStringViewController()
@@ -128,5 +128,4 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         }
     }
 }
-
 
